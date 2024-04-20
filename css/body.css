@@ -1,0 +1,51 @@
+
+main{
+    display: flex;
+}
+.cover{
+    display: flex;
+    max-width: 101.75vw;
+    margin: 0px -27px;
+    overflow: scroll;
+}
+.cover img{
+    width: 105vw;
+    height: 500px;
+}
+.card{
+    display: flex;
+    max-width: 91vw;
+    margin: 0px -27px;
+    overflow: scroll;
+}
+.display h2{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 45px;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    padding: 7vh 1vw;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5vw;
+    align-items: center;
+}
+.box img{
+    display: flex;
+    width: 160px;
+    height: 160px;
+}
+.big{
+    display: inline-flex;
+}
+.lines a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border: 7px 0px;
+}
