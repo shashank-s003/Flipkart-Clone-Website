@@ -1,0 +1,42 @@
+@media only screen and (max-width: 376px) {
+    main{
+        margin: 0 10vw;
+    }
+    header{
+        height: 22.8vh;
+    }
+    nav{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    ul{
+        margin: 0 -7vw;
+    }
+    .logo{
+        justify-content: center;
+        margin: 1vh 32vw;
+    }
+    li a{
+        justify-content: center;
+        padding: 1vh 12vw;
+    }
+    .search input{
+        width: 64vw;
+    }
+    .btn{
+        justify-content: center;
+    }
+    button{
+        width: 15vw;
+        margin: 1vh auto;
+    }
+    .cover{
+        height: 32vh;
+        width: 102vw;
+        margin: 0 -10vw;
+    }
+    .cover img{
+        height: 32vh;
+        width: 100vw;
+    }
+}
