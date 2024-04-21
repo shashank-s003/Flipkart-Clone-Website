@@ -1,16 +1,19 @@
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 360px) {
     main{
         margin: 0 10vw;
     }
     header{
-        height: 20vh;
+        height: 22vh;
     }
     nav{
         flex-direction: column;
     }
+    ul{
+        margin: 0 -7vw;
+    }
     .logo{
         justify-content: center;
-        margin: 1vh 40vw;
+        margin: 1vh 32vw;
     }
     li a{
         justify-content: center;
@@ -23,7 +26,8 @@
         justify-content: center;
     }
     button{
-        width: 10vw;
+        width: 15vw;
+        margin: 1vh auto;
     }
     .cover{
         height: 32vh;
