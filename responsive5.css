@@ -1,0 +1,57 @@
+@media only screen and (max-width: 280px) {
+    main {
+        margin: 0 10vw;
+    }
+
+    header {
+        height: 22.8vh;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    ul {
+        margin: 0 -7vw;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 1vh 32vw;
+    }
+
+    li a {
+        justify-content: center;
+        padding: 1vh 10vw;
+    }
+
+    .search input {
+        width: 67vw;
+        position: relative;
+        left: -4vw;
+    }
+
+    .btn {
+        justify-content: center;
+        position: relative;
+        left: -7vw;
+    }
+
+    button {
+        width: 33vw;
+        margin: 1vh auto;
+        height: 4vh;
+    }
+
+    .cover {
+        height: 32vh;
+        width: 102vw;
+        margin: 0 -10vw;
+    }
+
+    .cover img {
+        height: 32vh;
+        width: 100vw;
+    }
+}
